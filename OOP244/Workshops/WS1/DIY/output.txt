@@ -1,0 +1,52 @@
+Script started on Fri 08 Sep 2023 09:18:45 PM EDT
+==10526== Memcheck, a memory error detector
+==10526== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==10526== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==10526== Command: ws.exe
+==10526== 
+Enter the following Data:
+-------------------------------------------------------
+lukE
+sky
+fett
+feT
+Jack
+!
+-------------------------------------------------------
+Star Wars phone direcotry search
+-------------------------------------------------------
+Enter a partial name to search (no spaces) or enter '!' to exit
+> lukE
+Luke Skywalker: (301) 555-0630
+Enter a partial name to search (no spaces) or enter '!' to exit
+> sky
+Luke Skywalker: (301) 555-0630
+Enter a partial name to search (no spaces) or enter '!' to exit
+> fett
+Jango Fett: (905) 555-6016
+Boba Fett: (905) 555-9382
+Enter a partial name to search (no spaces) or enter '!' to exit
+> feT
+Jango Fett: (905) 555-6016
+Boba Fett: (905) 555-9382
+Enter a partial name to search (no spaces) or enter '!' to exit
+> Jack
+Enter a partial name to search (no spaces) or enter '!' to exit
+> !
+Thank you for using Star Wars directory.
+
+-------------------------------------------------------
+Broken Phone Book phone direcotry search
+-------------------------------------------------------
+badDataFile.txt file not found!
+Thank you for using Broken Phone Book directory.
+==10526== 
+==10526== HEAP SUMMARY:
+==10526==     in use at exit: 0 bytes in 0 blocks
+==10526==   total heap usage: 3 allocs, 3 frees, 73,840 bytes allocated
+==10526== 
+==10526== All heap blocks were freed -- no leaks are possible
+==10526== 
+==10526== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 08 Sep 2023 09:19:04 PM EDT
