@@ -1,0 +1,57 @@
+Script started on Tue 12 Mar 2024 10:25:36 PM EDT
+==200360== Memcheck, a memory error detector
+==200360== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==200360== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==200360== Command: ws college.txt
+==200360== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line:
+--------------------------
+  1: ws
+  2: college.txt
+--------------------------
+
+William Olver++Invalid record!
+Sophia Aiden++Invalid record!
+------------------------------------------------------------------------------------------------------------------------
+|                                        Test #1 Persons in the college!                                               |
+------------------------------------------------------------------------------------------------------------------------
+| Employee  | E491910   | Sara Joseph          | 44  |Computer Science| Professor
+| Student   | S890321   | Amelia Lucas         | 20  |VxWorks, Java, C++, Nucleus, Threadx, TDA4VM, Delphi, Scala, R
+| Employee  | E789234   | Jackson Benjamin     | 64  |
+| Student   | S217456   | Levi Owen            | 45  |C#, Perl, Python, Tcl/TK, Symbian, DRA829, Matlab, Rust
+| Employee  | E360537   | Mike John            | 103 |Electrical Engineering| Professor
+------------------------------------------------------------------------------------------------------------------------
+|                                        Test #2 Persons in the college!                                               |
+------------------------------------------------------------------------------------------------------------------------
+| Professor | E491910   | Sara Joseph          | 44  |
+| Student   | S890321   | Amelia Lucas         | 20  |
+| Employee  | E789234   | Jackson Benjamin     | 64  |
+| Student   | S217456   | Levi Owen            | 45  |
+| Professor | E360537   | Mike John            | 103 |
+------------------------------------------------------------------------------------------------------------------------
+|                                        Test #3 Students in the college!                                              |
+------------------------------------------------------------------------------------------------------------------------
+| Student   | S890321   | Amelia Lucas         | 20  |VxWorks, Java, C++, Nucleus, Threadx, TDA4VM, Delphi, Scala, R
+| Student   | S217456   | Levi Owen            | 45  |C#, Perl, Python, Tcl/TK, Symbian, DRA829, Matlab, Rust
+------------------------------------------------------------------------------------------------------------------------
+|                                        Test #4 Professors in the college!                                            |
+------------------------------------------------------------------------------------------------------------------------
+| Employee  | E491910   | Sara Joseph          | 44  |Computer Science| Professor
+| Employee  | E360537   | Mike John            | 103 |Electrical Engineering| Professor
+------------------------------------------------------------------------------------------------------------------------
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==200360== 
+==200360== HEAP SUMMARY:
+==200360==     in use at exit: 0 bytes in 0 blocks
+==200360==   total heap usage: 49 allocs, 49 frees, 88,887 bytes allocated
+==200360== 
+==200360== All heap blocks were freed -- no leaks are possible
+==200360== 
+==200360== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Tue 12 Mar 2024 10:25:37 PM EDT
